@@ -1,4 +1,4 @@
-namespace :log do
+namespace :logs do
   desc 'Tails a log file from the "log" directory'
   task :tail do
     on roles(:app), primary: true do |host|
@@ -10,4 +10,4 @@ namespace :log do
   end
 end
 
-task :log => ['log:tail']
+task :logs => ['logs:tail']

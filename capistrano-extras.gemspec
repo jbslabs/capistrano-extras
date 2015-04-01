@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'capistrano-extras'
   spec.version       = Capistrano::Extras::VERSION
   spec.authors       = ['Balazs Kovacs']
-  spec.email         = ['balazs.kovacs@supercharge.io.com']
+  spec.email         = ['balazs.kovacs@supercharge.io']
   spec.summary       = 'Capistrano tasks for interactive console and log tailing.'
   spec.description   = ''
   spec.homepage      = ''
