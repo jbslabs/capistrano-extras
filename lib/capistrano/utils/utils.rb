@@ -16,7 +16,7 @@ def pick_file(directory)
   end
 
   # return filename
-  files[index]
+  files[index].strip
 end
 
 ## Execute a command on a given host
